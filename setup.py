@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Text-Summarizer"
 AUTHOR_USER_NAME = "karanbhati05"
-SRC_REPO = "textSummarizer"
+SRC_REPO = "textsummarizer"
 AUTHOR_EMAIL = "karan.bhati@djsce.edu.in"
 
 
@@ -16,12 +16,12 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for text summarization",
+    description="A small python package for NLP app",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url=f"https:github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    long_description_content="text/markdown",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https:github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
